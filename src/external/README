@@ -1,0 +1,13 @@
+you should almost always prefer adding a module by either running
+
+```
+    npm install <module_name> --save
+```
+
+or adding the modules directly into package.json and then running
+
+```
+    npm
+```
+
+rather than putting external javascript directly into the repo.

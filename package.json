@@ -1,0 +1,43 @@
+{
+  "name": "stein-skeliton-project",
+  "version": "0.0.0",
+  "devDependencies": {
+    "babel": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-transform-object-rest-spread": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-2": "latest",
+    "es6-shim": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react": "latest",
+    "expect": "latest",
+    "express": "latest",
+    "gulp": "latest",
+    "gulp-babel": "latest",
+    "gulp-cli": "latest",
+    "gulp-concat": "latest",
+    "gulp-cssnano": "latest",
+    "gulp-minify": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-watch": "latest",
+    "path": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "latest",
+    "react-router-redux": "latest",
+    "redux": "latest",
+    "redux-devtools": "latest",
+    "redux-devtools-dock-monitor": "latest",
+    "redux-devtools-log-monitor": "latest",
+    "redux-thunk": "latest",
+    "webpack": "latest",
+    "webpack-preset-babel-stage-2": "latest",
+    "webpack-stream": "latest"
+  },
+  "scripts": {
+    "serve": "node devServer.js",
+    "start": "npm install && gulp watch & npm run serve",
+    "build": "npm install && gulp build"
+  }
+}
