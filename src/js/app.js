@@ -10,7 +10,9 @@ export default connect(
 )(
   class extends React.Component {
     render() {
-      return <div> {this.props.placeholderProp} </div>
+      return <div> 
+        {this.props.placeholderProp} 
+      </div>
     }
   }
 );

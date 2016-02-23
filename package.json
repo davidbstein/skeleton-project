@@ -11,7 +11,6 @@
     "eslint": "latest",
     "eslint-plugin-react": "latest",
     "expect": "latest",
-    "express": "latest",
     "gulp": "latest",
     "gulp-babel": "latest",
     "gulp-cli": "latest",
